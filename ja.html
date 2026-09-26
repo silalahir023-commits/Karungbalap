@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Karung Balap — Pusat Karung Medan</title>
+    <style>
+        *{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',sans-serif}
+        :root{--merah:#dc2626;--kuning:#eab308;--hijau:#16a34a;--abu:#f3f4f6}
+        body{background:#fff}
+
+        header{
+            background:linear-gradient(135deg,var(--merah),#ea580c);
+            color:white;
+            padding:1.2rem;
+            text-align:center;
+        }
+        header h1{font-size:1.5rem;margin-bottom:.3rem}
+        header p{opacity:.95}
+
+        .container{max-width:1100px;margin:0 auto;padding:1rem}
+
+        .info-box{
+            background:#fefce8;
+            border-left:4px solid var(--kuning);
+            padding:1rem;
+            border-radius:8px;
+            margin-bottom:1.5rem;
+        }
+
+        .grid{
+            display:grid;
+            grid-template-columns:repeat(auto-fit,minmax(280px,1fr));
+            gap:1.5rem;
+        }
+
+        .produk{
+            border:2px solid #e5e7eb;
+            border-radius:12px;
+            padding:1rem;
+            text-align:center;
+            transition:.2s;
+        }
+        .produk:hover{
+            border-color:var(--hijau);
+            box-shadow:0 4px 12px rgba(0,0,0,.08);
+        }
+
+        .produk img{
+            width:100%;
+            height:180px;
+            object-fit:contain;
+            margin-bottom:1rem;
+            background:#fef3c7;
+            border-radius:8px;
+        }
+
+        .produk h3{font-size:1.1rem;margin-bottom:.5rem;color:#1f2937}
+        .produk .deskripsi{font-size:.9rem;color:#6b7280;margin-bottom:.8rem;line-height:1.5}
+        .produk .harga{font-size:1.4rem;font-weight:bold;color:var(--hijau);margin-bottom:1rem}
+
+        .btn-pesan{
+            display:inline-block;
+            width:100%;
+            padding:.9rem;
+            background:var(--hijau);
+            color:white;
+            font-weight:bold;
+            text-decoration:none;
+            border-radius:8px;
+            font-size:1rem;
+            border:none;
+            cursor:pointer;
+        }
+        .btn-pesan:hover{background:#15803d}
+
+        footer{
+            background:#1f2937;
+            color:white;
+            text-align:center;
+            padding:1.5rem;
+            margin-top:3rem;
+        }
+    </style>
+</head>
+<body>
+
+<hader>
+<img src="https://raw.githubusercontent.com/silalahir023-commits/Gbraja/refs/heads/main/IMG-20260926-WA0002.jpg" width="100%">
+</header>
+
+<div class="container">
+    <div class="info-box">
+        <strong>📋 Aturan Pembelian Resmi:</strong><br>
+        ✅ Minimal beli: <b>100 lembar</b> &nbsp;|&nbsp; <br>✅ Maksimal beli: <b>5.000 lembar</b><br>
+        ✅ Harga jelas per lembar &nbsp;|&nbsp;<br> ✅ Pengiriman dari Medan ke seluruh Indonesia
+    </div>
+
+    <h2 style="text-align:center;margin:2rem 0 1rem">Pilih Jenis Karung</h2>
+
+    <div class="grid">
+        <!-- PRODUK 1 -->
+        <div class="produk">
+            <img src="https://static-tokodaring.tisera.id/prod/images/produk_gambar/6874c00f964d2.jpg" alt="Karung Plastik 50kg">
+            <h3>Karung Nitrea 50kg</h3>
+            <p class="deskripsi">Karung plastik putih, bahan tebal & kuat.</p>
+            <p class="harga">Rp 4.000 / lembar</p>
+            <a href="https://wa.me/6282382132206?text=Halo Karung Balap, saya mau pesan: Karung Plastik 50kg — jumlah: 100 lembar" target="_blank" class="btn-pesan">💬 Pesan via WhatsApp</a>
+        </div>
+
+        <!-- PRODUK 2 -->
+        <div class="produk">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRcRWk1h26g53QuhhA4TPDoJeWuSCbMSVv2KHsQEiwyMw&s=10" alt="Karung Beras 50kg">
+            <h3>Karung Meroke CPN 25kg</h3>
+            <p class="deskripsi">Standar pabrik beras, kualitas terjamin, tahan robek & tahan lembab.</p>
+            <p class="harga">Rp 3.300 / lembar</p>
+            <a href="https://wa.me/6282382132206?text=Halo Karung Balap, saya mau pesan: Karung Beras 50kg — jumlah: 100 lembar" target="_blank" class="btn-pesan">💬 Pesan via WhatsApp</a>
+        </div>
+
+        <!-- PRODUK 3 -->
+        <div class="produk">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQLkgqT9hEe2UofwBwQtiyL7HDcMB67f9niEHZMRRy74Q&s=10" alt="Karung Goni Besar">
+            <h3>Karung Meroke Calnit 25kg</h3>
+            <p class="deskripsi">Tidak mudah rusak, dijamin bahan original.</p>
+            <p class="harga">Rp 2.800 / lembar</p>
+            <a href="https://wa.me/6282382132206?text=Halo Karung Balap, saya mau pesan: Karung Goni Besar — jumlah: 100 lembar" target="_blank" class="btn-pesan">💬 Pesan via WhatsApp</a>
+        </div>
+
+        <!-- PRODUK 4 -->
+        <div class="produk">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQMCyTMSCKno08tof8v3NH183YKHvLdsI-6Z9TE1cw48A&s=10" alt="Karung Plastik 25kg">
+            <h3>Karung TSP 50kg</h3>
+            <p class="deskripsi">Ukuran standart, ringan tapi kuat. Cocok kemasan besar-menengah.</p>
+            <p class="harga">Rp 4.500 / lembar</p>
+            <a href="https://wa.me/6282382132206?text=Halo Karung Balap, saya mau pesan: Karung Plastik 25kg — jumlah: 100 lembar" target="_blank" class="btn-pesan">💬 Pesan via WhatsApp</a>
+        </div>
+
+        <!-- PRODUK 5 -->
+        <div class="produk">
+            <img src="https://img.lazcdn.com/g/ff/kf/Sa71ff2bed19a4a7aa0dd3a8f09ac7998y.jpg_720x720q80.jpg">
+            <h3>Karung Petro 50kg</h3>
+            <p class="deskripsi">Ukuran Standart, cocok untuk penjualan eceran & rumah tangga.</p>
+            <p class="harga">Rp 3.500 / lembar</p>
+            <a href="https://wa.me/6282382132206?text=Halo Karung Balap, saya mau pesan: Karung Beras 10kg — jumlah: 100 lembar" target="_blank" class="btn-pesan">💬 Pesan via WhatsApp</a>
+        </div>
+
+        <!-- PRODUK 6 -->
+        <div class="produk">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRrzCvYEOqE9PY7Dxou3wq3DzmdLo777W53EX6s_7vrun7yAx2xWwx6JwI5&s=10" alt="Karung Pupuk 50kg">
+            <h3>Karung Phonska 50kg</h3>
+            <p class="deskripsi">Bahan tebal khusus, tahan air & tahan kimia. Untuk pupuk & pertanian.</p>
+            <p class="harga">Rp 4.500 / lembar</p>
+            <a href="https://wa.me/6282382132206?text=Halo Karung Balap, saya mau pesan: Karung Pupuk 50kg — jumlah: 100 lembar" target="_blank" class="btn-pesan">💬 Pesan via WhatsApp</a>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <p style="font-weight:bold;font-size:1.1rem">🏁 Karung Balap — Usaha Jujur & Terpercaya</p>
+    <p style="margin:.5rem 0">📞 WhatsApp: <a href="https://wa.me/6282382132206" style="color:#86ef9f;text-decoration:none;font-weight:bold">0823-8213-2206</a></p>
+    <p>📍 Medan, Sumatera Utara — Siap Kirim ke Seluruh Indonesia</p>
+    <p style="margin-top:1rem;font-size:.85rem;opacity:.7">© 2026 Karung Balap — Semua Transaksi Resmi & Aman</p>
+</footer>
+<!-- ==============================================
+   PERLINDUNGAN FOTO & HALAMAN
+============================================== -->
+<style>
+/* Blokir pilih teks & salin */
+* {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+/* Izinkan pilih di kolom input saja */
+input, textarea {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+}
+/* Blokir seret gambar */
+img {
+    -webkit-user-drag: none;
+    -khtml-user-drag: none;
+    -moz-user-drag: none;
+    -o-user-drag: none;
+    user-drag: none;
+    pointer-events: none; /* Blokir klik di gambar */
+}
+/* Blokir cetak/simpan ke PDF */
+@media print {
+    body { display: none !important; }
+}
+</style>
+
+<script>
+// 1. Blokir Klik Kanan
+document.addEventListener('contextmenu', function(e) {
+    e.preventDefault();
+    alert('🔒 Gambar dilindungi hak cipta');
+    return false;
+});
+
+// 2. Blokir Pintasan Keyboard Berbahaya
+document.addEventListener('keydown', function(e) {
+    // Ctrl+S = Simpan Halaman
+    if ((e.ctrlKey || e.metaKey) && e.key === 's') {
+        e.preventDefault();
+        return false;
+    }
+    // Ctrl+U = Lihat Kode Sumber
+    if ((e.ctrlKey || e.metaKey) && e.key === 'u') {
+        e.preventDefault();
+        return false;
+    }
+    // Ctrl+P = Cetak
+    if ((e.ctrlKey || e.metaKey) && e.key === 'p') {
+        e.preventDefault();
+        return false;
+    }
+    // F12 = Alat Pengembang
+    if (e.key === 'F12') {
+        e.preventDefault();
+        return false;
+    }
+    // Ctrl+Shift+I / J / C
+    if ((e.ctrlKey || e.metaKey) && e.shiftKey && ['I','J','C'].includes(e.key.toUpperCase())) {
+        e.preventDefault();
+        return false;
+    }
+});
+
+// 3. Blokir Seret & Jatuhkan
+document.addEventListener('dragstart', function(e) {
+    e.preventDefault();
+    return false;
+});
+</script>
+</body>
+</html>
